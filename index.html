@@ -36,7 +36,6 @@
             </div>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section id="home" class="hero-section">
         <div class="hero-overlay"></div>
@@ -91,7 +90,6 @@
             </div>
         </div>
     </section>
-
     <!-- Features Section -->
     <section id="features" class="py-5 bg-light">
         <div class="container">
@@ -149,7 +147,6 @@
             </div>
         </div>
     </section>
-
     <!-- Technology Section -->
     <section id="technology" class="py-5">
         <div class="container">
@@ -202,7 +199,6 @@
             </div>
         </div>
     </section>
-
     <!-- CTA Section -->
     <section class="cta-section py-5">
         <div class="container">
@@ -226,11 +222,10 @@
             </div>
         </div>
     </section>
-
 <!-- Footer -->
 <footer class="bg-dark text-light text-center py-3 mt-4">
   <div class="container">
-    <p class="mb-1">&copy; 2025 Solar Energy Dashboard</p>
+    <p class="mb-1">&copy; 2025 Solar Energy Dashboard | Developed by <strong>Mohammed Sadiq</strong></p>
     <p class="small mb-2">Harnessing the power of the sun ☀️ | Reliable | Efficient | Sustainable</p>
     
     <!-- Footer Links -->
@@ -248,14 +243,10 @@
     </div>
   </div>
 </footer>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
-
 <style>
-
 /* Custom Variables */
 :root {
     --primary-color: #1f4788;
@@ -272,24 +263,20 @@
     --box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     --transition: all 0.3s ease;
 }
-
 /* Global Styles */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
 }
-
 .dashboard-body {
     background-color: #f8f9fa;
 }
-
 /* Navigation */
 .navbar-brand {
     font-weight: 600;
     font-size: 1.2rem;
 }
-
 /* Hero Section */
 .hero-section {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
@@ -302,7 +289,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 .hero-overlay {
     position: absolute;
     top: 0;
@@ -311,16 +297,13 @@ body {
     bottom: 0;
     background: rgba(31, 71, 136, 0.8);
 }
-
 .hero-section .container {
     position: relative;
     z-index: 2;
 }
-
 .hero-stats {
     margin-top: 2rem;
 }
-
 .stat-card {
     background: rgba(255, 255, 255, 0.1);
     padding: 1.5rem;
@@ -330,37 +313,30 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     transition: var(--transition);
 }
-
 .stat-card:hover {
     transform: translateY(-5px);
     background: rgba(255, 255, 255, 0.15);
 }
-
 .stat-number {
     font-size: 2rem;
     font-weight: bold;
     color: white;
     margin-bottom: 0.5rem;
 }
-
 .stat-label {
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 0;
     font-size: 0.9rem;
 }
-
 footer {
   position: relative;
   bottom: 0;
   width: 100%;
   font-size: 0.9rem;
 }
-
 footer a:hover {
   color: #ffc107 !important; /* Highlight on hover */
 }
-
-
 /* Feature Cards */
 .feature-card {
     background: white;
@@ -370,12 +346,10 @@ footer a:hover {
     transition: var(--transition);
     border: none;
 }
-
 .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
-
 .feature-icon {
     width: 80px;
     height: 80px;
@@ -386,24 +360,20 @@ footer a:hover {
     justify-content: center;
     margin-bottom: 1.5rem;
 }
-
 .feature-icon i {
     font-size: 2rem;
     color: white;
 }
-
 .feature-list {
     list-style: none;
     padding: 0;
     margin-top: 1rem;
 }
-
 .feature-list li {
     padding: 0.25rem 0;
     position: relative;
     padding-left: 1.5rem;
 }
-
 .feature-list li:before {
     content: '✓';
     position: absolute;
@@ -411,54 +381,45 @@ footer a:hover {
     color: var(--success-color);
     font-weight: bold;
 }
-
 /* Technology Section */
 .tech-stat {
     text-align: center;
     padding: 1rem;
 }
-
 .tech-stat h3 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
-
 .tech-stat p {
     color: var(--medium-gray);
     margin-bottom: 0;
 }
-
 .technology-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin-top: 2rem;
 }
-
 .tech-image {
     position: relative;
     overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
 }
-
 .tech-image img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     transition: var(--transition);
 }
-
 .tech-image:hover img {
     transform: scale(1.05);
 }
-
 /* CTA Section */
 .cta-section {
     background: linear-gradient(135deg, var(--dark-color), var(--primary-color));
 }
-
 /* Dashboard Styles */
 .dashboard-card {
     border: none;
@@ -466,7 +427,6 @@ footer a:hover {
     border-radius: var(--border-radius);
     margin-bottom: 1rem;
 }
-
 .dashboard-card .card-header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
@@ -474,7 +434,6 @@ footer a:hover {
     border-radius: var(--border-radius) var(--border-radius) 0 0;
     padding: 1rem 1.5rem;
 }
-
 .overview-card {
     background: white;
     border-radius: var(--border-radius);
@@ -483,23 +442,19 @@ footer a:hover {
     box-shadow: var(--box-shadow);
     transition: var(--transition);
 }
-
 .overview-card:hover {
     transform: translateY(-2px);
 }
-
 .overview-number {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
-
 .overview-label {
     color: var(--medium-gray);
     font-size: 0.9rem;
     margin-bottom: 0;
 }
-
 /* Pump Cards */
 .pump-card {
     background: white;
@@ -509,12 +464,10 @@ footer a:hover {
     transition: var(--transition);
     cursor: pointer;
 }
-
 .pump-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
-
 .pump-status {
     display: inline-block;
     padding: 0.25rem 0.75rem;
@@ -523,22 +476,18 @@ footer a:hover {
     font-weight: 600;
     text-transform: uppercase;
 }
-
 .status-operational {
     background-color: rgba(39, 174, 96, 0.1);
     color: var(--success-color);
 }
-
 .status-warning {
     background-color: rgba(243, 156, 18, 0.1);
     color: var(--warning-color);
 }
-
 .status-maintenance {
     background-color: rgba(231, 76, 60, 0.1);
     color: var(--danger-color);
 }
-
 .pump-metric {
     display: flex;
     justify-content: space-between;
@@ -546,21 +495,17 @@ footer a:hover {
     padding: 0.5rem 0;
     border-bottom: 1px solid var(--light-gray);
 }
-
 .pump-metric:last-child {
     border-bottom: none;
 }
-
 .metric-label {
     color: var(--medium-gray);
     font-size: 0.9rem;
 }
-
 .metric-value {
     font-weight: 600;
     color: var(--text-color);
 }
-
 /* Alert Styles */
 .alert-item {
     background: white;
@@ -570,60 +515,49 @@ footer a:hover {
     border-radius: 0 var(--border-radius) var(--border-radius) 0;
     box-shadow: var(--box-shadow);
 }
-
 .alert-warning {
     border-left-color: var(--warning-color);
 }
-
 .alert-maintenance {
     border-left-color: var(--danger-color);
 }
-
 .alert-info {
     border-left-color: var(--accent-color);
 }
-
 .alert-meta {
     font-size: 0.8rem;
     color: var(--medium-gray);
     margin-top: 0.5rem;
 }
-
 /* Chart Containers */
 .chart-container {
     position: relative;
     height: 300px;
     margin: 1rem 0;
 }
-
 /* Chart Canvas Sizing */
 .dashboard-card .card-body canvas {
     max-height: 250px !important;
     width: 100% !important;
 }
-
 .dashboard-card.h-100 .card-body {
     display: flex;
     flex-direction: column;
     min-height: 250px;
 }
-
 .dashboard-card.h-100 .card-body canvas {
     flex: 1;
     max-height: 300px !important;
 }
-
 /* Progress Bars */
 .progress {
     height: 8px;
     border-radius: 4px;
     background-color: var(--light-gray);
 }
-
 .progress-bar {
     border-radius: 4px;
 }
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-section {
@@ -658,7 +592,6 @@ footer a:hover {
         min-height: 200px;
     }
 }
-
 @media (max-width: 576px) {
     .hero-stats {
         margin-top: 3rem;
@@ -685,7 +618,6 @@ footer a:hover {
         margin-bottom: 1.5rem !important;
     }
 }
-
 /* Animations */
 @keyframes fadeInUp {
     from {
@@ -697,44 +629,34 @@ footer a:hover {
         transform: translateY(0);
     }
 }
-
 .fade-in-up {
     animation: fadeInUp 0.6s ease forwards;
 }
-
 /* Loading States */
 .loading {
     opacity: 0.6;
     pointer-events: none;
 }
-
 .spinner-border-sm {
     width: 1rem;
     height: 1rem;
 }
-
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
 }
-
 ::-webkit-scrollbar-track {
     background: var(--light-gray);
 }
-
 ::-webkit-scrollbar-thumb {
     background: var(--medium-gray);
     border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-color);
 }
-
 </style>
-
 <script>
-
 // Main JavaScript for the landing page
 document.addEventListener('DOMContentLoaded', function() {
     // Smooth scrolling for navigation links
@@ -750,7 +672,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-
     // Navbar background change on scroll
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar');
@@ -760,7 +681,6 @@ document.addEventListener('DOMContentLoaded', function() {
             navbar.classList.remove('scrolled');
         }
     });
-
     // Add CSS for scrolled navbar
     const style = document.createElement('style');
     style.textContent = `
@@ -771,13 +691,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     `;
     document.head.appendChild(style);
-
     // Animate statistics counters when they come into view
     const observerOptions = {
         threshold: 0.5,
         rootMargin: '0px 0px -100px 0px'
     };
-
     const observer = new IntersectionObserver(function(entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -786,12 +704,10 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }, observerOptions);
-
     // Observe all stat numbers
     document.querySelectorAll('.stat-number, .overview-number').forEach(el => {
         observer.observe(el);
     });
-
     // Counter animation function
     function animateCounter(element) {
         const text = element.textContent;
@@ -799,7 +715,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const suffix = text.replace(number.toString(), '');
         
         if (isNaN(number)) return;
-
         let current = 0;
         const increment = number / 50;
         const timer = setInterval(() => {
@@ -811,7 +726,6 @@ document.addEventListener('DOMContentLoaded', function() {
             element.textContent = Math.floor(current) + suffix;
         }, 40);
     }
-
     // Add fade-in animation to feature cards
     const featureCards = document.querySelectorAll('.feature-card');
     const cardObserver = new IntersectionObserver(function(entries) {
@@ -822,11 +736,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }, { threshold: 0.3 });
-
     featureCards.forEach(card => {
         cardObserver.observe(card);
     });
-
     // Parallax effect for hero section
     window.addEventListener('scroll', function() {
         const scrolled = window.pageYOffset;
@@ -836,20 +748,17 @@ document.addEventListener('DOMContentLoaded', function() {
             hero.style.transform = `translateY(${speed}px)`;
         }
     });
-
     // Add hover effects to buttons
     document.querySelectorAll('.btn').forEach(btn => {
         btn.addEventListener('mouseenter', function() {
             this.style.transform = 'translateY(-2px)';
             this.style.boxShadow = '0 4px 15px rgba(0,0,0,0.2)';
         });
-
         btn.addEventListener('mouseleave', function() {
             this.style.transform = 'translateY(0)';
             this.style.boxShadow = '';
         });
     });
-
     // Add ripple effect CSS
     const rippleStyle = document.createElement('style');
     rippleStyle.textContent = `
@@ -875,9 +784,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     `;
     document.head.appendChild(rippleStyle);
-
     console.log('SolarPump Technologies - Main script loaded');
 });
 </script>
-
 </html>
